@@ -1,0 +1,66 @@
+logo-container div {
+display: flex;
+}
+.logo {
+width: 180px;
+background-color: #164663;
+color: white;
+text-align: center;
+font-size: 22px;
+font-weight: bold;
+padding: 15px;
+}
+.banniere {
+background-color: #dbeafe;
+color: #1e3a8a;
+text-align: center;
+padding: 30px;
+flex: 1;
+}
+.menu ul {
+display: flex;
+justify-content: center;
+list-style: none;
+}
+.menu li a {
+color: white;
+text-decoration: none;
+padding: 15px 30px;
+display: block;
+transition: background-color 0.3s;
+}
+.menu li a:hover {
+background-color: #0891b2;
+}
+.section-gauche {
+background-color: #d1fae5;
+padding: 20px;
+flex: 2;
+border: 1px solid #d1fae5;
+}
+.section-droite {
+background-color: #fef3c7;
+padding: 20px;
+flex: 1;
+border: 1px solid #059669;
+}
+main {
+display: flex;
+gap: 20px;
+padding: 20px;
+}
+h2 {
+margin-bottom: 15px;
+font-size: clamp(1.2rem, 4vw, 2rem);
+}
+ul, ol {
+margin-left: 25px;
+margin-bottom: 10px;
+}
+p {
+line-height: 1.6;
+}
+footer {
+background-color: #164663;
+color: white;
+text-align: center;}
